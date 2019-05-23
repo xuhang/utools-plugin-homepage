@@ -1,0 +1,14 @@
+{
+	"pluginName": "我的导航",
+	"description": "导航页",
+	"author": "tsui",
+	"main": "index.html",
+	"version": "0.0.1",
+	"logo": "logo.png",
+	"features": [
+	    {
+	        "code": "导航页",
+	        "cmds":["nav", "hao", "123"]
+	    }
+	]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="index.css" rel="stylesheet" type="text/css" />
+	<title>Document</title>
+</head>
+<body>
+
+	<div class="wrapper">
+		<ul class="nav" id="items">
+			
+		</ul>
+	</div>
+	<input type="text" id="title" placeholder="标题" />
+	<input type="text" id="url" placeholder="URL" />
+	<input type="text" id="favicon" placeholder="icon" />
+	<input type="button" value="添加" onclick="addItem()" />
+	<script src="jquery.3.3.1.min.js"></script>
+	<script src="index.js"></script>
+	<script>
+		utools.onPluginEnter(({ code, type, payload }) => {
+			flushNav();
+		});
+	</script>
+</body>
+</html>
